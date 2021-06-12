@@ -1,5 +1,7 @@
 # la-contessa-vue
 
+Vue version
+
 ## Project setup
 ```
 npm install
