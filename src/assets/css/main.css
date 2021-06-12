@@ -1,0 +1,142 @@
+a {
+	text-decoration: none;
+}
+
+body{
+	margin:0px;
+	margin-left: var(--main-container-margin);
+	margin-right: var(--main-container-margin);
+	font-family: "majalla";
+}
+
+figure{
+	margin:0px;
+	padding:0px;
+	font-size: 0px;
+	letter-spacing: 0px;
+	word-spacing: 0px;
+}
+
+h1 {
+	margin: 0.5rem;
+	font-size: var(--header-font-size);
+	text-align: center;
+}
+
+h2 {
+	margin: 0px;
+	font-size: 2em;
+	text-align: center;
+}
+
+p {
+	display: block;
+	margin:0px;
+	padding: 0px 1em 0px 0em;
+	font-size: var(--font-size);
+}
+
+
+button {
+	font-size: var(--font-size-form);
+	background-color: black; /* Green */
+	border-radius: 5px;
+	border: none;
+	color: white;
+	padding: 0.5em 2em;
+	text-align: center;
+	text-decoration: none;
+}
+
+.nav-item {
+	text-align:center;
+	font-size: 3em;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	font-family: 'majalla';
+}
+::-moz-placeholder { /* Firefox 19+ */
+	font-family: 'majalla';
+}
+:-ms-input-placeholder { /* IE 10+ */
+	font-family: 'majalla';
+}
+:-moz-placeholder { /* Firefox 18- */
+	font-family: 'majalla';
+}
+
+input {
+	font-family: 'majalla';
+}
+
+input:focus {
+	outline: none !important;
+	box-shadow: 0 0 2px #719ECE;
+}
+
+textarea {
+	font-family: 'majalla';
+}
+
+textarea:focus {
+	outline: none !important;
+	box-shadow: 0 0 2px #719ECE;
+}
+
+.fa-gmail {
+  content: url('./../svg/gmail.svg');
+  height: 1em;
+  width: auto;
+}
+
+.fa-instagram {
+  color: transparent;
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); 
+	background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%); 
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.fa-facebook-official {
+  color: #3b5998;
+  background-image: linear-gradient( to bottom, transparent 20%, white 20%, white 93%, transparent 93% );
+  background-size: 55%;
+  background-position: 70% 0;
+  background-repeat: no-repeat;
+}
+
+@media(max-width: 1100px) {
+	:root {
+		--grid-margin: 0.8em;
+		--font-size: 1.8em;
+		--font-size-form: 1.5em;
+		--main-container-margin: 2%;
+		--font-size-about: 5em;
+		--navbar-width:96%;
+		--item-1-max-width: 450px;
+	}
+
+}
+
+@media(max-width: 768px) {
+	:root {
+		--grid-margin: 0.5em;
+		--font-size: 1.5em;
+		--font-size-form: 1.3em;
+		--main-container-margin: 1%;
+		--font-size-about: 4em;
+		--navbar-width:98%;
+		--item-1-max-width: 400px;
+	}
+}
+
+@media(max-width: 375px) {
+	:root {
+		--grid-margin: 0.3em;
+		--font-size: 1em;
+		--font-size-form: 0.8em;
+		--font-size-about: 3em;
+
+	}
+}

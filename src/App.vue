@@ -1,28 +1,50 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Navbar/>
+    <Landing/>
+    <About/>
+    <Males/>
+    <Females/>
+    <Shows/>
+    <Featured/>
+    <Contact/>
+    <Footer/>
+    <Modal/>
+    
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Navbar from './views/Navbar.vue';
+import Landing from './views/Landing.vue';
+import About from './views/About.vue';
+import Males from './views/Males.vue';
+import Females from './views/Females.vue';
+import Shows from './views/Shows.vue';
+import Featured from './views/Featured.vue';
+import Contact from './views/Contact.vue';
+import Footer from './views/Footer.vue';
+import Modal from './components/Modal.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Navbar,
+    Landing,
+    About,
+    Males,
+    Females,
+    Shows,
+    Contact,
+    Footer,
+    Modal,
+    Featured
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  @import './assets/css/variables.css';
+  @import './assets/css/main.css';
+  @import './assets/css/fontface.css';
 </style>
