@@ -151,13 +151,17 @@ export default {
   }
 
   @media(max-width: 375px) {
+    .navigation {
+      overflow: hidden;
+    }
+    
     .headerlogo > img {
-      margin-top: 5px;
-      width: 130px;
+      margin-top: 10px;
+      width: 100px;
     }
 
     .fa {
-      font-size: 0.8em;
+      font-size: 0.5em;
     }
   }
 
